@@ -12,4 +12,13 @@ module.exports = {
 
     return resp.json(tweet);
   },
+  async delete(req, resp) {
+    const tweet = await Tweet.deleteOne({ '_id': req.params.id });
+    return resp.json(tweet);
+  },
+
+  async deleteAll(req, resp) {
+    const tweet = await Tweet.remove({});
+    return resp.json(tweet);
+  },
 };

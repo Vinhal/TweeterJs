@@ -10,4 +10,8 @@ routes.post('/tweets', TweetController.store);
 
 routes.post('/likes/:id', LikeController.store);
 
+routes.delete('/tweet/:id', TweetController.delete);
+
+routes.delete('/all', TweetController.deleteAll);
+
 module.exports = routes;
