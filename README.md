@@ -1,4 +1,4 @@
-# Aplicação réplica do Tweeter
+# Aplicação réplica do Twitter
 
 Aplicações desenvolvidas com React, React Native e Node.js. 
 <br><br>
