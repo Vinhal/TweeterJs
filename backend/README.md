@@ -1,8 +1,8 @@
-# To run this application
+## To run this application
 
 Run `npm start`
 
-## This API has this followings request:
+### This API has this followings request:
 
 1º GET - '/tweets' <br>
 2º POST - '/tweets' <br>
